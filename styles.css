@@ -1,0 +1,187 @@
+.w1200 {
+  margin: 0 auto;
+  width: 1200px;
+}
+.w1200 .title {
+  padding: 20px;
+}
+.w1200 .title h1 {
+  text-align: center;
+  font-size: 40px;
+}
+.w1200 .title h1 span {
+  color: #1dd2af;
+}
+.w1200 ul.important {
+  zoom: 1;
+  padding: 20px 0 0px 0;
+  border-top: 1px dashed #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+}
+.w1200 ul.important:after {
+  width: 0;
+  height: 0;
+  content: "";
+  display: block;
+  clear: both;
+}
+.w1200 ul.important li {
+  float: left;
+  margin-right: 33px;
+}
+.w1200 ul.important li a {
+  display: block;
+  width: 60px;
+  height: 60px;
+  padding: 21px;
+  border-radius: 15px;
+  border: 1px dotted #1dd2af;
+  background: #fff;
+}
+.w1200 ul.important li a span {
+  width: 60px;
+  height: 60px;
+  display: block;
+}
+.w1200 ul.important li p {
+  line-height: 18px;
+  margin-top: 20px;
+  text-align: center;
+  color: #1dd2af;
+}
+.w1200 ul.important li strong {
+  border-bottom: 1px solid #24d2b0;
+  position: relative;
+  display: block;
+  margin-top: 15px;
+  z-index: 4;
+}
+.w1200 ul.important li strong i {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border: 10px solid transparent;
+  display: block;
+  left: 50%;
+  margin-left: -10px;
+  border-top-color: #1dd2af;
+}
+.w1200 ul.important li.rcsp_1 span {
+  background: url("image/icon1.png") no-repeat bottom center;
+}
+.w1200 ul.important li.rcsp_2 span {
+  background: url("image/icon2.png") no-repeat bottom center;
+}
+.w1200 ul.important li.rcsp_3 span {
+  background: url("image/icon3.png") no-repeat bottom center;
+}
+.w1200 ul.important li.rcsp_4 span {
+  background: url("image/icon4.png") no-repeat bottom center;
+}
+.w1200 ul.important li.rcsp_5 span {
+  background: url("image/icon5.png") no-repeat bottom center;
+}
+.w1200 ul.important li.rcsp_6 span {
+  background: url("image/icon6.png") no-repeat bottom center;
+}
+.w1200 ul.important li.rcsp_7 span {
+  background: url("image/icon7.png") no-repeat bottom center;
+}
+.w1200 ul.important li.rcsp_8 span {
+  background: url("image/icon8.png") no-repeat bottom center;
+}
+.w1200 ul.important li.rcsp_9 {
+  margin-right: 0;
+}
+.w1200 ul.important li.rcsp_9 span {
+  background: url("image/icon9.png") no-repeat bottom center;
+}
+.w1200 .contents .cl .important_l {
+  float: left;
+}
+.w1200 .contents .cl .important_l img {
+  width: 450px;
+  height: 384px;
+}
+.w1200 .contents .cl .important_r {
+  float: right;
+  padding: 30px 60px 0px 0px;
+  width: 530px;
+  overflow: hidden;
+}
+.w1200 .contents .cl .important_r .title_1 {
+  text-align: center;
+  font: 14px/18px "Microsoft YaHei";
+  color: #535353;
+  display: block;
+}
+.w1200 .contents .cl .important_r .title_1 h3 span {
+  color: #ef571a;
+}
+.w1200 .contents .cl .important_r .title_1 h2 {
+  font: bold 30px/40px "Microsoft YaHei";
+  color: #535353;
+  padding-bottom: 5px;
+}
+.w1200 .contents .cl .important_r .title_1 h2 span {
+  color: #ef571a;
+}
+.w1200 .contents .cl .important_r .title_1 p {
+  line-height: 1.2em;
+  font-size: 100%;
+}
+.w1200 .contents .cl .important_r .icon_top {
+  width: 100%;
+  padding-top: 25px;
+  zoom: 1;
+}
+.w1200 .contents .cl .important_r .icon_top:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.w1200 .contents .cl .important_r .icon_top i {
+  width: 32px;
+  height: 32px;
+  display: block;
+}
+.w1200 .contents .cl .important_r .icon_top .i_left {
+  float: left;
+  background: url("image/icon_left.png") 0 center no-repeat;
+}
+.w1200 .contents .cl .important_r .icon_top .i_right {
+  float: right;
+  background: url("image/icon_right.png") 0 center no-repeat;
+}
+.w1200 .contents .cl .important_r .icon_top .i_left1 {
+  float: left;
+  background: url("image/icon_left1.png") 0 center no-repeat;
+}
+.w1200 .contents .cl .important_r .icon_top .i_right1 {
+  float: right;
+  background: url("image/icon_right1.png") 0 center no-repeat;
+}
+.w1200 .contents .cl .important_r .study {
+  padding: 0px 32px;
+}
+.w1200 .contents .cl .important_r .study h3 {
+  font: bold 25px/30px "Microsoft YaHei";
+  color: #1dd2af;
+  display: block;
+  padding-bottom: 15px;
+}
+.w1200 .contents .cl .important_r .study span p {
+  text-indent: 2rem;
+}
+.w1200 .contents .cl .important_r .study img {
+  display: block;
+  width: 140px;
+  height: 90px;
+  overflow: hidden;
+  padding-top: 10px;
+  left: 50%;
+  margin-left: -70px;
+  position: relative;
+}

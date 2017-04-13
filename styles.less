@@ -1,0 +1,223 @@
+@height: 100%;
+@width: 1200px;
+@color: #1dd2af;
+
+.w1200 {
+  margin: 0 auto;
+  width: @width;
+  .title {
+    padding: 20px;
+    h1 {
+      text-align: center;
+      font-size: 40px;
+      span {
+        color: @color;
+      }
+    }
+  }
+  ul.important {
+    &:after {
+      width: 0;
+      height: 0;
+      content: "";
+      display: block;
+      clear: both;
+    }
+    zoom: 1;
+    padding: 20px 0 0px 0;
+    border-top: 1px dashed #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    li {
+      float: left;
+      margin-right: 33px;
+      a {
+        display: block;
+        width: 60px;
+        height: 60px;
+        padding: 21px;
+        border-radius: 15px;
+        border: 1px dotted #1dd2af;
+        background: #fff;
+        span {
+          width: 60px;
+          height: 60px;
+          display: block;
+        }
+      }
+      p {
+        line-height: 18px;
+        margin-top: 20px;
+        text-align: center;
+        color: #1dd2af;
+      }
+      strong {
+        border-bottom: 1px solid #24d2b0;
+        position: relative;
+        display: block;
+        margin-top: 15px;
+        z-index: 4;
+        i {
+          position: absolute;
+          width: 0px;
+          height: 0px;
+          border: 10px solid transparent;
+          display: block;
+          left: 50%;
+          margin-left: -10px;
+          border-top-color: #1dd2af;
+        }
+      }
+    }
+    li.rcsp_1 {
+      span {
+        background: url("image/icon1.png") no-repeat bottom center;
+      }
+    }
+    li.rcsp_2 {
+      span {
+        background: url("image/icon2.png") no-repeat bottom center;
+      }
+    }
+    li.rcsp_3 {
+      span {
+        background: url("image/icon3.png") no-repeat bottom center;
+      }
+    }
+    li.rcsp_4 {
+      span {
+        background: url("image/icon4.png") no-repeat bottom center;
+      }
+    }
+    li.rcsp_5 {
+      span {
+        background: url("image/icon5.png") no-repeat bottom center;
+      }
+    }
+    li.rcsp_6 {
+      span {
+        background: url("image/icon6.png") no-repeat bottom center;
+      }
+    }
+    li.rcsp_7 {
+      span {
+        background: url("image/icon7.png") no-repeat bottom center;
+      }
+    }
+    li.rcsp_8 {
+      span {
+        background: url("image/icon8.png") no-repeat bottom center;
+      }
+    }
+    li.rcsp_9 {
+      span {
+        background: url("image/icon9.png") no-repeat bottom center;
+      }
+      margin-right: 0;
+    }
+
+  }
+  .contents{
+    .cl{
+      .important_l{
+        float: left;
+        img{
+          width: 450px;
+          height: 384px;
+        }
+      }
+      .important_r{
+        float: right;
+        padding: 30px 60px 0px 0px;
+        width: 530px;
+        overflow: hidden;
+        .title_1{
+          text-align: center;
+          font: 14px/18px "Microsoft YaHei";
+          color: #535353;
+          display: block;
+          //text-indent: 2em;
+          h3{
+            span{
+              color: #ef571a;
+            }
+          }
+          h2{
+            font: bold 30px/40px "Microsoft YaHei";
+            color: #535353;
+            padding-bottom: 5px;
+            span{
+              color: #ef571a;
+            }
+          }
+          p{
+            line-height: 1.2em;
+            font-size: 100%;
+          }
+          img{
+
+          }
+        }
+        .icon_top{
+          width: 100%;
+          padding-top: 25px;
+          &:after{
+            content: "";
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden;
+          }
+          zoom: 1;
+          i{
+            width: 32px;
+            height: 32px;
+            display: block;
+          }
+          .i_left{
+            float: left;
+            background: url("image/icon_left.png") 0 center no-repeat;
+          }
+          .i_right{
+            float: right;
+            background: url("image/icon_right.png") 0 center no-repeat;
+          }
+          .i_left1{
+            float: left;
+            background: url("image/icon_left1.png") 0 center no-repeat;
+          }
+          .i_right1{
+            float: right;
+            background: url("image/icon_right1.png") 0 center no-repeat;
+          }
+        }
+        .study{
+
+          padding: 0px 32px;
+          h3{
+            font: bold 25px/30px "Microsoft YaHei";
+            color: #1dd2af;
+            display: block;
+            padding-bottom: 15px;
+          }
+          span{
+            p{
+              text-indent: 2rem;
+            }
+          }
+          img{
+            display: block;
+            width: 140px;
+            height: 90px;
+            overflow: hidden;
+            padding-top: 10px;
+            left: 50%;
+            margin-left: -70px;
+            position: relative;
+          }
+        }
+
+      }
+    }
+  }
+}
+
